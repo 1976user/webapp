@@ -1,0 +1,12 @@
+.form-row {
+	display: flex;
+	margin: 10px;
+}
+
+.form-row>label {
+	width: 100px;
+}
+
+.form-row>input[readonly] {
+	background: rgba(100, 100, 100, 0.1);
+}
